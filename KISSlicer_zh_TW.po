@@ -9,7 +9,7 @@
 #.
 #.  - Please enter 'XYZ Translation by [your name(s)]'
 msgid "_Translation_By_"
-msgstr "正體中文翻譯 - 中華民國 Kisslicer 使用者群組"
+msgstr "正體中文翻譯 - TAIWAN Kisslicer USER TEAM"
 
 #.  Menu Item
 msgid "<LF><LF>The Tuning Wizard will linearly interpolate the Parameter chosen by the user as a function of Z.<LF><LF>'Tune_Value at Z = 0' will be the value of the Parameter on the bottom layers.<LF><LF>'Tune_Value at Z = top' will be the value of the Parameter on the top layers of the tallest model printed.<LF><LF><LF>Select a Tuning Parameter to see recommendations specific to that test. A rough recommended range will also be shown as (lo - hi)."
