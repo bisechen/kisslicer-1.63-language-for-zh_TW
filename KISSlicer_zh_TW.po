@@ -30,7 +30,7 @@ msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試的�
 
 #.  Menu Item
 msgid "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>Use the same model and style profile as that recommended in the Temperature test.<LF><LF>Start with the faster flow rate at Z = 0, since it will take a long time to print the solid bottom layers at the lower flow rate.<LF><LF>Pick the range where the surface quality looks good. Make sure the extruder doesn't skip.  Materials like TPU may have a very narrow flow rate range (both for quality and because the density is flow dependent)."
-msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0開始加快流量,因為以較低流量打印<LF>固體底層需要很長的時間.<LF>選擇表面質量最好的範圍,確定擠出機不會<LF>跳動,像TPU這樣的材料可能具有非常窄的<LF>流量範圍(無論是質量還是密度都<LF>依賴於流量)."
+msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0開始加快流量,因為以較低流量打印<LF>實體底層需要很長的時間.<LF>選擇表面質量最好的範圍,確定擠出機不會<LF>跳動,像TPU這樣的材料可能具有非常窄的<LF>流量範圍(無論是質量還是密度都<LF>依賴於流量)."
 		
 
 #.  Menu Item
