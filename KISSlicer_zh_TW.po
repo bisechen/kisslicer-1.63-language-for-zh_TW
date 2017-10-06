@@ -57,7 +57,7 @@ msgstr ""
 
 #.  Tooltip for '$ / cm^3'
 msgid "Cost per cm^3, use whatever currency type you wish"
-msgstr "使用您想要的任何貨幣類型,定義每cm^3的打印成本"
+msgstr "使用您想要的任何貨幣類型,定義每cm^3(立方公分)的打印成本"
 
 #.  Widget
 msgid "$ / hour"
@@ -190,7 +190,7 @@ msgstr "顯示 Z 軸圖層"
 
 #.  Widget
 msgid "1. pick Ext, [Load Values]<LF>2. save & run G-code (ext off bed)<LF>3. after beep remove matl, let ooze<LF>4. measure ooze, [Store] result"
-msgstr "1.選擇擠出機 [載入設置值] <LF> 2.保存並執行 G-CODE(噴頭需遠離平台)<LF> 3.嗶聲後清除殘料,讓料滲出<LF> 4.測量滲出 [供給] 的結果"
+msgstr "1.選擇擠出機 [載入設置值] <LF> 2.保存並執行 G-CODE(注意！噴頭需遠離平台)<LF> 3.嗶聲後清除殘料,讓料滲出<LF> 4.測量滲出 [供給] 的結果"
 
 #.  Widget
 msgid "1st"
@@ -230,16 +230,16 @@ msgstr "以3D顯示"
 
 #.  Tooltip for '3D'
 msgid "Show paths in 3D"
-msgstr "以3D顯示路徑"
+msgstr "以3D模式顯示路徑"
 		
 
 #.  Menu Item
 msgid "3D Background"
-msgstr "3D背景"
+msgstr "3D 背景"
 
 #.  Menu Item
 msgid "3D Systems (CubeX / BFB)"
-msgstr "3D系統(CubeX/BFB)"
+msgstr "3D 系統(CubeX/BFB)"
 
 #.  Widget
 msgid "3D Window"
@@ -399,7 +399,7 @@ msgstr "@2< 線寬"
 
 #.  Tooltip for '@2< Width'
 msgid "Extrusion Width of the Upper layer of the raft"
-msgstr "頂部棧板擠出寬度"
+msgstr "頂部棧板路徑擠出寬度"
 
 #.  Widget
 msgid "@2<- Use Alternate Method @2<-"
@@ -411,7 +411,7 @@ msgstr "@2> 成本計算"
 
 #.  Tooltip for '@2> Cost Calc'
 msgid "Calculate the cost per cm^3"
-msgstr "計算每cm^3的成本"
+msgstr "計算每cm^3立方公分材料的成本"
 		
 
 #.  Widget
@@ -444,7 +444,7 @@ msgstr "@2> 線寬"
 
 #.  Tooltip for '@2> Width'
 msgid "Extrusion Width of the Lower layer of the raft"
-msgstr "底部棧板擠出寬度"
+msgstr "底部棧板路徑擠出寬度"
 
 #.  Widget
 msgid "@8< Force"
@@ -629,7 +629,7 @@ msgstr "熱床"
 
 #.  Tooltip for 'Bed'
 msgid "If you have a heated bed, you can use the <BED> token in the G-code includes"
-msgstr "如果您有一個加熱床,您可以於G-CODE中加入<BED>代碼"
+msgstr "如果您的打印機有加熱床,您可以在G-CODE中加入<BED>代碼"
 		
 
 #.  Widget
@@ -638,7 +638,7 @@ msgstr "平台中心 [mm] X"
 
 #.  Tooltip for 'Bed Center [mm]  X'
 msgid "KISSlicer treats the center of the bed as 0,0 but many printers do not.  Enter the X coordinate of the center of the bed (KISSlicer will offset the output G-code)"
-msgstr "ISSlicer預設是將打印平台中心視為0,0,不過有許多打印機並非如此,<LF>那就在這裡輸入平台中心的X坐標,KISSlicer將會在輸出G-CODE時自動彌補偏移量"
+msgstr "KISSlicer預設是將打印平台中心視為0,0,不過有許多打印機並非如此,<LF>那就在這裡輸入平台中心的X坐標,KISSlicer將會在輸出G-CODE時自動彌補偏移量"
 
 #.  Widget
 msgid "Bed Dimensions [mm]"
@@ -1556,7 +1556,7 @@ msgstr "需要多厚實的帽邊"
 
 #.  Widget
 msgid "If KISSlicer detects possible<LF>problems with a mesh, the<LF>triangles or edges will be color-<LF>coded to signify the problem type."
-msgstr "如果KISSlicer檢測到網格有<LF>問題,則三角形或邊將被賦於顏色<LF>以表示問題類型."
+msgstr "如果KISSlicer檢測到網格有<LF>問題,則三角形或邊將被賦於不同顏色<LF>以表示問題類型."
 
 #.  Menu Item
 msgid "Import Image && Extrude"
@@ -2976,7 +2976,7 @@ msgstr "單一部件的報告cm^3"
 
 #.  Tooltip for 'Single part's reported cm^3'
 msgid "After slicing the part, KISSlicer will report the extruded cm^3"
-msgstr "切片後,KISSlicer將會報告擠出的cm^3"
+msgstr "切片後,KISSlicer將會報告擠出的cm^3數值"
 
 #.  Widget
 msgid "Single part's weight"
@@ -2984,7 +2984,7 @@ msgstr "單一部件重量"
 
 #.  Tooltip for 'Single part's weight'
 msgid "You will need to weight the part, raft and all...use the same units as for the entire spool"
-msgstr "您將需要對零件棧板和所有...使用與整個線軸相同的重量單位"
+msgstr "您將需要對零件、棧板和所有使用這個線軸的部分相同的重量單位"
 
 #.  Widget
 msgid "Size 2^N"
@@ -3032,7 +3032,7 @@ msgstr "實體路徑"
 
 #.  Menu Item
 msgid "Some sub-meshes were inside out. This can happen<LF>when there is a hollow space ('void') inside the<LF>part, or it can be a mistake.  Should KISSlicer:"
-msgstr "子網格內部出現空格('void'),這有時可能會會發生<LF>,否則可能是KISSlicer的一個錯誤："
+msgstr "子網格內部出現空格('void'),這有時會發生<LF>,不然就可能是KISSlicer產生的錯誤："
 
 #.  Menu Item
 msgid "Sparse Infill Path"
@@ -3308,7 +3308,7 @@ msgstr "這將覆蓋上述任何設置.<LF>你確定嗎?"
 
 #.  Widget
 msgid "To calculate the cost, you<LF>will need to print out one<LF>object and weigh it.<LF>(raft and all)"
-msgstr "要計算成本,您<LF>將需要打印出一個<LF>物件並量出重量.<LF>(棧板和全部)"
+msgstr "要計算成本,您<LF>將需要打印出一個<LF>物件並量出重量.<LF>(包含棧板和全部物件)"
 
 #.  Widget
 msgid "Top"
@@ -3336,7 +3336,7 @@ msgstr "觸發 [mm]"
 
 #.  Tooltip for 'Trigger [mm]'
 msgid "Any jump > this threshold will force a wipe and destring, so a 0 would force a destring/wipe on all travels"
-msgstr "任何超過 最小跨距 這個閾值將強制回擦和回抽,<LF>0 將會強制在所有行進時觸發回抽/回擦"
+msgstr "任何超過 最小跨距 的閾值會強制回擦和回抽,<LF>0 則會強制在所有運行時觸發回抽/回擦"
 
 #.  Widget
 msgid "Tune_Value at Z = 0 [mm]"
@@ -3376,7 +3376,7 @@ msgstr "使用棧板"
 
 #.  Tooltip for 'Use a Raft'
 msgid "Rafts are used to either overcome bed irregularities, or to improve adhesion when printing with a material that does not adhere well to the bed."
-msgstr "棧板用於克服不規則的平台,或者使用於不能很好地黏附在平台上的材料進行打印,提高黏附性"
+msgstr "棧板可用於克服表面不平整的平台,或者使用於不能很好黏附在平台上的材料進行打印,以提高黏附性"
 
 #.  Menu Item
 msgid "Use the [Ext Map] tab to map this material to an extruder for printing."
