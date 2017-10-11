@@ -158,7 +158,7 @@ msgstr "高品質-低速"
 
 #.  Widget
 msgid "* sets the speed for the Stacked version as well"
-msgstr "設置打印的速度"
+msgstr "設置各別範圍打印時的速度"
 
 #.  Widget
 msgid ", Y"
