@@ -1123,7 +1123,7 @@ msgstr "錯誤：無法保存'%s',請檢查檔案權限.並確認檔名與副檔
 
 #.  Widget
 msgid "Expand tree to"
-msgstr "展開樹"
+msgstr "物件樹展開為"
 
 #.  Widget
 msgid "Experimentally determine the<LF>ViscoElasticity<LF>NOTE: This is an initial value.<LF>Refine it in the Tuning Wizard."
