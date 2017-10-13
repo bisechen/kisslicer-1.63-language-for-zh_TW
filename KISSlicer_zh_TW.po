@@ -13,7 +13,7 @@ msgstr "正體中文翻譯 - TAIWAN Kisslicer USER TEAM"
 
 #.  Menu Item
 msgid "<LF><LF>The Tuning Wizard will linearly interpolate the Parameter chosen by the user as a function of Z.<LF><LF>'Tune_Value at Z = 0' will be the value of the Parameter on the bottom layers.<LF><LF>'Tune_Value at Z = top' will be the value of the Parameter on the top layers of the tallest model printed.<LF><LF><LF>Select a Tuning Parameter to see recommendations specific to that test. A rough recommended range will also be shown as (lo - hi)."
-msgstr "<LF><LF>調整助手將會以用戶選擇的參數插入為 Z 的數值.<LF><LF>當 Tune_Value 值為 Z=0 時是底層參數值.<LF><LF>而 Tune_Value 為  Z=top 時 則是打印物件頂層的參數值.<LF><LF><LF>選擇或輸入調整參數以查看該測試的特定建議。<LF>粗略的建議範圍將顯示為(lo-hi)。"
+msgstr "<LF><LF>優化助手將會以用戶選擇的參數插入為 Z 的數值.<LF><LF>當 Tune_Value 值為 Z=0 時是底層參數值.<LF><LF>而 Tune_Value 為  Z=top 時 則是打印物件頂層的參數值.<LF><LF><LF>選擇或輸入調整參數以查看該測試的特定建議。<LF>粗略的建議範圍將顯示為(lo-hi)。"
 
 #.  Menu Item
 msgid "<LF>(Note: increasing the oversample resolution will reduce memory usage)"
@@ -25,7 +25,7 @@ msgstr "<LF><TUNINGVAL><LF><LF>此模式不會更改G-CODE.但是會更新<LF><T
 
 #.  Menu Item
 msgid "<LF>Destring Length [mm]<LF>(0 - 10)<LF><LF>The model for this test should have multiple tall spires. Three cylinders of diameter 10 mm and 50 mm tall works well. Run the test destring values from 0 mm up to the suspected maximum destring length.<LF><LF>Destring tuning should happen after PreloadVE tuning, as a properly tuned Preload will minimize the amount of destring retraction required to get string-free prints."
-msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試的物件需具有<LF>三個直徑10 mm和50 mm的尖塔.<LF>從0mm開始測試回抽值到儘可能<LF>最大的回抽長度.<LF><LF>當作過 PreloadVE(預載材料彈黏性) <LF>調校後要再進行這個設定調整,<LF>因為正確的調節預擠量<LF>可最大限度減少無縫打印所需的回抽量."
+msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試的物件需具有<LF>三個直徑10 mm和50 mm的尖塔.<LF>從0mm開始測試回抽值到儘可能<LF>最大的回抽長度.<LF><LF>當作過 PreloadVE(預載材料彈黏性) <LF>調校後要再進行這個設定優化,<LF>因為正確的調節預擠量<LF>可最大限度減少無縫打印所需的回抽量."
 		
 
 #.  Menu Item
@@ -460,7 +460,7 @@ msgstr "@< 高速             高品質@>"
 
 #.  Tooltip for '@< Fast             Precise@>'
 msgid "Controls the print speed (blending between the Printer profile's fast and slow speed settings)."
-msgstr "控制打印速度(打印機快速、慢速間的調整設置)"
+msgstr "打印速度控制(調節打印機快速、慢速間的設置)"
 
 #.  Widget
 msgid "@< Matl<LF>G-code"
@@ -476,7 +476,7 @@ msgstr "@< 關[支撐]密集@>"
 
 #.  Tooltip for '@< Off [Support]  Dense@>'
 msgid "Controls the density of the main support"
-msgstr "控制主支撐的密度"
+msgstr "主支撐的密度控制"
 
 #.  Widget
 msgid "@< Printer<LF>G-code"
@@ -488,7 +488,7 @@ msgstr ""
 
 #.  Tooltip for '@<-'
 msgid "Calculate the Heat Time Coefficient"
-msgstr "計算加熱時間係數"
+msgstr "加熱時間計算係數"
 
 #.  Widget
 msgid "@<- Init"
@@ -496,7 +496,7 @@ msgstr ""
 
 #.  Tooltip for '@<- Init'
 msgid "Compute an initial value for PreloadVE.  It should be further refined using the Tuning Wizard."
-msgstr "為PreloadVE(預載材料彈黏性)計算一個初始值,建議使用'調整助手'來協助進一步改進."
+msgstr "為PreloadVE(預載材料彈黏性)計算一個初始值,建議使用'優化助手'來協助進一步改進."
 
 #.  Widget
 msgid "@<- Sets initial temp,<LF>fans, PreloadVE"
@@ -702,7 +702,7 @@ msgstr "藍色"
 
 #.  Widget
 msgid "Bond"
-msgstr "黏著"
+msgstr "黏合"
 
 #.  Tooltip for 'Bond'
 msgid "Help the part bond to the raft's interface by matching the 1st layer's paths.  This is only a good idea when the interface material does not bond well to the part."
@@ -1127,7 +1127,7 @@ msgstr "展開樹"
 
 #.  Widget
 msgid "Experimentally determine the<LF>ViscoElasticity<LF>NOTE: This is an initial value.<LF>Refine it in the Tuning Wizard."
-msgstr "材料彈黏性<LF>實驗已確定.<LF>注意：這是最初值.<LF>需在調整助手中進行優化."
+msgstr "材料彈黏性<LF>實驗已確定.<LF>注意：這是最初值.<LF>需在優化助手中進行優化."
 		
 
 #.  Menu Item
@@ -1804,7 +1804,7 @@ msgstr "鎖定<LF>路徑"
 
 #.  Tooltip for 'Lock<LF>Paths'
 msgid "Lock the most recent paths to preserve style. (PRO only)"
-msgstr "鎖定最近的路徑以保留樣式(僅限PRO)"
+msgstr "鎖定部件保留已切片樣式,<LF>可變更未鎖定的物件切片設定<LF>(多擠出機 PRO 版限定)"
 
 #.  Widget
 msgid "Log Box"
@@ -2536,7 +2536,7 @@ msgstr "預載量[mm],流速為1 mm^3 / s"
 
 #.  Menu Item
 msgid "PreloadVE Coefficient [microseconds]<LF>(0 - 2x Experimental Wizard value)<LF><LF>The printer profile *must* have valid values under [Printer]->[Extruder Hardware] for NozDia, NozLen, and DrvLen.<LF><LF>The model is a 25 mm cube with rounded vertical corners. The Style has 2 loops (perim 1st), 0 skin, 20% infill, 0 Seam Depth and Gap, Join-Loop Off, and fixed layer thickness ~= NozDia / 2.<LF><LF>There should be no Prime Pillar or Wall. Destring is disabled for this test.<LF><LF>The ideal PreloadVE value will be slightly different for thin vs thick layers, so tune it in the center of your desired layer thickness range."
-msgstr "PreloadVE Coefficient [microseconds] <LF>(0 - 2x 調整助手實驗值)<LF><LF>打印機設定檔*必須*在[打印機] -> [擠出機硬體]裡的噴頭孔徑,喉管長度和<LF>擠出長中輸入有效的值.<LF><LF>用來測試物件必須是個25毫米的圓角立方體,<LF>打印樣式要有2個循環圈(1/1),殼厚設定為  0,填充設為20%,接縫深度和間隙設為 0,<LF>關閉連接和設定層厚為噴頭孔徑的二分之一. <LF><LF>因為此測試不能使用於Prime Pillar和Wall,所以這些也不要設定.<LF><LF>較薄或較厚的層其 PreloadVE<LF>(預載材料彈黏性)理想值將略有不同,<LF>因此將其調整到所需層厚範圍中即可."
+msgstr "PreloadVE Coefficient [microseconds] <LF>(0 - 2x 優化助手實驗值)<LF><LF>打印機設定檔*必須*在[打印機] -> [擠出機硬體]裡的噴頭孔徑,喉管長度和<LF>擠出長中輸入有效的值.<LF><LF>測試物件必須是25毫米垂直圓角的立方體,<LF>打印樣式要有2個循環圈(1/1),殼厚設定為  0,填充設為20%,接縫深度和間隙設為 0,<LF>關閉連接和設定層厚為噴頭孔徑的二分之一. <LF><LF>因為此測試不能使用於Prime Pillar和Wall,所以這些也不要設定.<LF><LF>較薄或較厚的層其 PreloadVE<LF>(預載材料彈黏性)理想值將略有不同,<LF>因此將其調整到所需層厚範圍中即可.<LF>參看：<LF>www.kisslicer.com/tuning-wizard-files.html"
 
 #.  Widget
 msgid "PreloadVE [µs]"
@@ -3252,7 +3252,7 @@ msgstr "以下INI文件不存在(使用預設值):"
 
 #.  Widget
 msgid "The material's viscoelasticity<LF>is the ratio of the viscosity to<LF>elasticity.  The units work out<LF>to be seconds.  We use [µs].<LF><LF>NOTE: This is an initial value.<LF>Refine it in the Tuning Wizard."
-msgstr "材料的黏彈性<LF>是黏度與<LF>彈性的比值,單位為<秒>,我們使用[μs].<LF><LF>注意:這是一個初始值.<LF>在調整助手中進行優化"
+msgstr "材料的黏彈性<LF>是黏度與<LF>彈性的比值,單位為<秒>,我們使用[μs].<LF><LF>注意:這是一個初始值.<LF>在優化助手中進行優化"
 
 #.  Menu Item
 msgid "The model(s) could not be sliced with current settings.<LF>Most likely the walls are thinner than the extrusion width."
@@ -3360,11 +3360,11 @@ msgstr "調整參數"
 
 #.  Menu Item
 msgid "Tuning Wizard"
-msgstr "調整助手"
+msgstr "優化助手"
 
 #.  Widget
 msgid "Tuning Wizard Configuration"
-msgstr "調整助手配置"
+msgstr "優化助手配置"
 
 #.  Menu Item
 msgid "Ultra"
