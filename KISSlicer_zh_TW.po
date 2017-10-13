@@ -706,7 +706,7 @@ msgstr "黏著"
 
 #.  Tooltip for 'Bond'
 msgid "Help the part bond to the raft's interface by matching the 1st layer's paths.  This is only a good idea when the interface material does not bond well to the part."
-msgstr "配合第一層路徑以幫助組件黏合到棧板墊片.<LF>當材料不能很好地黏合到物件上時,這是個不錯的建議"
+msgstr "互相搭配第一層路徑和棧板墊片以幫助黏合.<LF>當材料的黏結性不好時,這是不錯的建議"
 
 #.  Widget
 msgid "Bottom Stepover"
@@ -714,7 +714,7 @@ msgstr "底部跨距"
 
 #.  Tooltip for 'Bottom Stepover'
 msgid "How much each path should overlap the previous layer on the underside.  Should be approximately 1/2 the extrusion width to not require support material. (Material dependent.)"
-msgstr "每條路徑應該與下面的上一層重疊多少,大約是擠出寬度的1/2,不需要支撐材料(依賴材料)"
+msgstr "每條路徑需要與下面的那一層有多少重疊？一般大約是擠出寬度的1/2,不需要支撐材料(依賴材料)"
 
 #.  Widget
 msgid "Box"
