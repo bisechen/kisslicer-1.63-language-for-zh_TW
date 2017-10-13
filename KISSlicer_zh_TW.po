@@ -1732,7 +1732,7 @@ msgstr "層厚控制(以[mm]或相對於擠出寬[%])表示"
 
 #.  Tooltip for 'Layer Control (in [mm] or [%])'
 msgid "Units are in [mm], unless you add a % which makes it a percentage of Extrusion Width.<LF>E.g. '0.5' means 0.5 [mm].  '50%' means 1/2 extrusion width."
-msgstr "單位是[mm],除非你添加一個百分比的擠出寬度.<LF> 例如'0.5'表示0.5 [mm],'50%'表示擠出寬度的2分之1."
+msgstr "一般單位是[mm],除非你使用擠出寬度的百分比.<LF> 例如'0.5'表示0.5 [mm],'50%'表示擠出寬度的2分之1."
 
 #.  Widget
 msgid "Layer Thickness"
