@@ -668,7 +668,7 @@ msgstr "平台尺寸 [mm]  X @<->"
 msgid "Available print width of the bed."
 msgstr "打印可用的平台大小"
 
-.  Widget
+#.  Widget
 msgid "Bed Temperature [C]"
 msgstr "熱床溫度[C]"
 
