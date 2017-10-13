@@ -1728,7 +1728,7 @@ msgstr "擠出機擠出第一層到平台上的溫度,最好比正常列印溫�
 
 #.  Widget
 msgid "Layer Control (in [mm] or [%])"
-msgstr "層控制(以[mm]或相對於擠出寬[%])表示"
+msgstr "層厚控制(以[mm]或相對於擠出寬[%])表示"
 
 #.  Tooltip for 'Layer Control (in [mm] or [%])'
 msgid "Units are in [mm], unless you add a % which makes it a percentage of Extrusion Width.<LF>E.g. '0.5' means 0.5 [mm].  '50%' means 1/2 extrusion width."
