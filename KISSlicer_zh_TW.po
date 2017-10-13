@@ -2246,6 +2246,14 @@ msgstr ""
 msgid "OK, and disable this warning"
 msgstr "確定,並禁用此警告"
 
+#.  Widget
+msgid "Object Packing<LF>Quality"
+msgstr ""
+
+#.  Tooltip for 'Object Packing<LF>Quality'
+msgid "This controls the internal resolution used by the packing engine.  Leaving it set to 'Fast' is recommended unless the bed is nearly full.  This is reset to 'Fast' every time KISSlicer is started."
+msgstr "這是控制物件安排的功能.推薦將其設置為「快」 ,<LF>除非打印床的空間都滿了.<LF>每次啟動KISSlicer時,這個功能將重新設置為「快」"
+
 #.  Menu Item
 msgid "Octagonal"
 msgstr "八角形"
@@ -3332,7 +3340,7 @@ msgstr "三角錯誤"
 
 #.  Widget
 msgid "Trigger [mm]"
-msgstr "觸發 [mm]"
+msgstr "觸發距離[mm]"
 
 #.  Tooltip for 'Trigger [mm]'
 msgid "Any jump > this threshold will force a wipe and destring, so a 0 would force a destring/wipe on all travels"
@@ -3456,7 +3464,7 @@ msgstr "墊片路徑的擠出寬度"
 
 #.  Widget
 msgid "Wipe [mm]"
-msgstr "回擦 [mm]"
+msgstr "回擦長度[mm]"
 
 #.  Tooltip for 'Wipe [mm]'
 msgid "Before moving to a new region, back-tracks over the most recent path or continues over the loop by this distance."
