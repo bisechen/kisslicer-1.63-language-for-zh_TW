@@ -581,7 +581,7 @@ msgstr "顯示哪個設定檔與此打印機設定檔相關聯,僅供參考,無�
 
 #.  Menu Item
 msgid "Auto-Rotate For Packing"
-msgstr "自動旋轉組件"
+msgstr "自動旋轉物件的擺放"
 
 #.  Widget
 msgid "Axis 1"
@@ -682,7 +682,7 @@ msgstr "圓形平台"
 
 #.  Tooltip for 'Bed is Round'
 msgid "For most delta printers, affects  display and model packing"
-msgstr "用於大多數delta打印機,影響顯示和物件組件"
+msgstr "用於大多數delta打印機,影響顯示和物件的擺放"
 
 #.  Widget
 msgid "Best Z [mm]"
