@@ -30,7 +30,7 @@ msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試需�
 
 #.  Menu Item
 msgid "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>Use the same model and style profile as that recommended in the Temperature test.<LF><LF>Start with the faster flow rate at Z = 0, since it will take a long time to print the solid bottom layers at the lower flow rate.<LF><LF>Pick the range where the surface quality looks good. Make sure the extruder doesn't skip.  Materials like TPU may have a very narrow flow rate range (both for quality and because the density is flow dependent)."
-msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0使用較快的流量,因為以較低流量打印<LF>實體底層需要很長的時間.<LF>挑選表面質量最好的範圍,確定擠出機沒有<LF>跳齒,像TPU這樣的軟性材料流量範圍可能非常窄<LF>(無論是質量還是密度都<LF>依賴於流量)."
+msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0使用較快的流量,因為以較低流量打印<LF>實體底層需要很長的時間.<LF>挑選表面品質最好的範圍,確定擠出機沒有<LF>跳齒,像TPU這樣的軟性材料流量範圍可能非常窄<LF>(無論是品質還是密度都<LF>依賴於流量)."
 		
 
 #.  Menu Item
@@ -2052,7 +2052,7 @@ msgstr "物件"
 
 #.  Menu Item
 msgid "Model Tab Order<LF>    (all objects at the same time, unsorted)"
-msgstr "物件序列標籤卡<LF>(同時打印所有物件,不排隊)"
+msgstr "依照物件標籤卡順序"
 
 #.  Widget
 msgid "Models"
@@ -2248,11 +2248,11 @@ msgstr "確定,並禁用此警告"
 
 #.  Widget
 msgid "Object Packing<LF>Quality"
-msgstr ""
+msgstr "物件擺放品質"
 
 #.  Tooltip for 'Object Packing<LF>Quality'
 msgid "This controls the internal resolution used by the packing engine.  Leaving it set to 'Fast' is recommended unless the bed is nearly full.  This is reset to 'Fast' every time KISSlicer is started."
-msgstr "這是控制物件安排的功能.推薦將其設置為「快」 ,<LF>除非打印床的空間都滿了.<LF>每次啟動KISSlicer時,這個功能將重新設置為「快」"
+msgstr "物件擺放於平台上間隔的品質.<LF>「Fast」擺放會比較雜亂,<LF>「balanced」為平均擺放.<LF>「Precise」則集中擺放.<LF>每次啟動KISSlicer時,這個功能將重設為「Fast」"
 
 #.  Menu Item
 msgid "Octagonal"
@@ -2864,7 +2864,7 @@ msgstr "選擇網格,然後設置擠出機"
 
 #.  Menu Item
 msgid "Sequential<LF>    (one object at a time, short to tall)"
-msgstr "順序<LF>(一次一個物件,從低到高)"
+msgstr "物件順序列印"
 
 #.  Widget
 msgid "Sequential Pack Style"
@@ -2872,7 +2872,7 @@ msgstr "順序樣式"
 
 #.  Tooltip for 'Sequential Pack Style'
 msgid "Pick how the objects are packed when printing sequentially."
-msgstr "選擇按順序打印物體的方式"
+msgstr "選擇打印物件順序的方式"
 
 #.  Widget
 msgid "Set"
@@ -2976,7 +2976,7 @@ msgstr "冷卻後X&Y的物件收縮多少"
 
 #.  Menu Item
 msgid "Simultaneous<LF>    (all objects at the same time, sorted)"
-msgstr "同時<LF>(所有物件同時排程)"
+msgstr "同時打印所有物件"
 
 #.  Widget
 msgid "Single part's reported cm^3"
