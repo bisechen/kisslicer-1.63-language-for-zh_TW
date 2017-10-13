@@ -25,22 +25,22 @@ msgstr "<LF><TUNINGVAL><LF><LF>此模式不會更改G-CODE.但是會更新<LF><T
 
 #.  Menu Item
 msgid "<LF>Destring Length [mm]<LF>(0 - 10)<LF><LF>The model for this test should have multiple tall spires. Three cylinders of diameter 10 mm and 50 mm tall works well. Run the test destring values from 0 mm up to the suspected maximum destring length.<LF><LF>Destring tuning should happen after PreloadVE tuning, as a properly tuned Preload will minimize the amount of destring retraction required to get string-free prints."
-msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試的物件需具有<LF>三個直徑10 mm和50 mm的尖塔.<LF>從0mm開始測試回抽值到儘可能<LF>最大的回抽長度.<LF><LF>當作過 PreloadVE(預載材料彈黏性) <LF>調校後要再進行這個設定優化,<LF>因為正確的調節預擠量<LF>可最大限度減少無縫打印所需的回抽量."
+msgstr "<LF>Destring Length[mm]<LF>(0 - 10)<LF><LF>要良好進行此測試需有<LF>三個直徑10 mm和50 mm的圓錘體.<LF>從0mm開始測試回抽值到儘可能<LF>最大的回抽長度.<LF><LF>當作過 PreloadVE(預載材料彈黏性) <LF>調校後要再進行這個設定優化,<LF>因為正確的調節預擠量<LF>可最大限度減少無縫打印所需的回抽量."
 		
 
 #.  Menu Item
 msgid "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>Use the same model and style profile as that recommended in the Temperature test.<LF><LF>Start with the faster flow rate at Z = 0, since it will take a long time to print the solid bottom layers at the lower flow rate.<LF><LF>Pick the range where the surface quality looks good. Make sure the extruder doesn't skip.  Materials like TPU may have a very narrow flow rate range (both for quality and because the density is flow dependent)."
-msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0開始加快流量,因為以較低流量打印<LF>實體底層需要很長的時間.<LF>選擇表面質量最好的範圍,確定擠出機不會<LF>跳動,像TPU這樣的材料可能具有非常窄的<LF>流量範圍(無論是質量還是密度都<LF>依賴於流量)."
+msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的相同物件和方式.<LF><LF>從Z = 0使用較快的流量,因為以較低流量打印<LF>實體底層需要很長的時間.<LF>挑選表面質量最好的範圍,確定擠出機沒有<LF>跳齒,像TPU這樣的軟性材料流量範圍可能非常窄<LF>(無論是質量還是密度都<LF>依賴於流量)."
 		
 
 #.  Menu Item
 msgid "<LF>Temperature [C]<LF>(manufacturer's recommendation)<LF><LF>The printer profile must have the 'Warm Same Ext' and 'Cool Same Ext' G-code defined.<LF><LF>Try a style profile with 1.5 loops in vase mode, and a skin thickness ~= 2 layers. Use the same rounded model from the PreloadVE test.<LF><LF>Once the test is done and the part cooled, use pliers to check the inter-layer bonding strength at various Z heights.  Pick a Z value that shows a nice surface quality and good bonding."
-msgstr "<LF>Temperature[C]<LF>(製造商建議的)<LF><LF>打印機設定檔必須給予'Warm Same Ext'和'Cool Same Ext'的G-code定義.<LF><LF>以花瓶模式中1.5圈形式的輪廓,表面厚度~= 2層去測試.使用與PreloadVE(預載材料彈黏性)<LF>測試相同的物件.<LF><LF>一旦測試完成待物件冷卻後,使用鉗子檢查<LF>各種Z高度下各層的黏合強度,選擇看來<LF>表面品質和黏合性良好的Z值."
+msgstr "<LF>Temperature[C]<LF>(製造商的建議)<LF><LF>打印機設定檔必須給予'Warm Same Ext'和'Cool Same Ext'的G-code定義.<LF><LF>以花瓶模式中1.5圈形式的輪廓,表面厚度~= 2層去測試.使用與PreloadVE(預載材料彈黏性)<LF>測試相同的物件.<LF><LF>一旦測試完成待物件冷卻後,使用鉗子檢查<LF>各種Z高度下各層的黏合強度,選擇看來<LF>表面品質和黏合性良好的Z值."
 		
 
 #.  Menu Item
 msgid "                    Welcome to KISSlicer!<LF>How would you characterize your 3D printing experience level?"
-msgstr "                    歡迎使用 KISSlicer!<LF>就您個人而言3D打印的經驗值為何?"
+msgstr "                    歡迎使用 KISSlicer!<LF>就您而言您的 3D 打印經驗等級為何?"
 
 #.  Widget
 msgid "  Ext. Priority<LF>  (per model)"
@@ -85,7 +85,7 @@ msgstr ""
 
 #.  Tooltip for '%z'
 msgid "How much will the model shrink in height after cooling"
-msgstr "冷卻後物件於高度方面收縮了多少"
+msgstr "冷卻後物件於Z軸高度方面收縮了多少"
 
 #.  Widget
 msgid "&Default"
@@ -186,11 +186,11 @@ msgstr ""
 
 #.  Tooltip for '0.0'
 msgid "The Z value of the layer to display"
-msgstr "顯示 Z 軸圖層"
+msgstr "滑動以顯示 Z 軸切層"
 
 #.  Widget
 msgid "1. pick Ext, [Load Values]<LF>2. save & run G-code (ext off bed)<LF>3. after beep remove matl, let ooze<LF>4. measure ooze, [Store] result"
-msgstr "1.選擇擠出機 [載入設置值] <LF> 2.保存並執行 G-CODE(注意！噴頭需遠離平台)<LF> 3.嗶聲後清除殘料,讓料滲出<LF> 4.測量滲出 [供給] 的結果"
+msgstr "1.選擇擠出機 [載入設置值]<LF>2.保存並執行 G-CODE(注意！噴頭需遠離平台)<LF> 3.嗶聲後清除殘料,讓料滲出<LF> 4.測量滲出, 然後[儲存] 結果"
 
 #.  Widget
 msgid "1st"
@@ -210,7 +210,7 @@ msgstr "擠出首層時最高行進速度"
 
 #.  Widget
 msgid "1st Width"
-msgstr "首層寬"
+msgstr "首層線寬"
 
 #.  Tooltip for '1st Width'
 msgid "Extrusion width of the interface paths on the 1st layer only, in [mm]."
@@ -452,7 +452,7 @@ msgstr "@8< 強制"
 
 #.  Tooltip for '@8< Force'
 msgid "Force any settings above the 'Settings Level' to use defaults"
-msgstr "強制您所使用的'設置級別'以上的任何設置使用預設值"
+msgstr "強制您目前'經驗等級'以上的任何設置使用預設值"
 
 #.  Widget
 msgid "@< Fast             Precise@>"
@@ -605,19 +605,19 @@ msgstr "軸 4"
 
 #.  Menu Item
 msgid "Background"
-msgstr "背景"
+msgstr "視窗底色"
 
 #.  Menu Item
 msgid "Base"
-msgstr "Base"
+msgstr "基本"
 
 #.  Widget
 msgid "Base Period 2^N"
-msgstr "Base Period 2^N"
+msgstr "基本週期 2^N"
 
 #.  Menu Item
 msgid "Basic"
-msgstr "基礎"
+msgstr "新手"
 
 #.  Widget
 msgid "Basics"
@@ -638,7 +638,7 @@ msgstr "平台中心 [mm] X"
 
 #.  Tooltip for 'Bed Center [mm]  X'
 msgid "KISSlicer treats the center of the bed as 0,0 but many printers do not.  Enter the X coordinate of the center of the bed (KISSlicer will offset the output G-code)"
-msgstr "KISSlicer預設是將打印平台中心視為0,0,不過有許多打印機並非如此,<LF>那就在這裡輸入平台中心的X坐標,KISSlicer將會在輸出G-CODE時自動彌補偏移量"
+msgstr "KISSlicer預設是將打印平台中心視為0,0<LF>然而有許多打印機本身並非如此,那就在這裡輸入平台中心的X坐標,<LF>KISSlicer將會在輸出G-CODE時自動彌補偏移量"
 
 #.  Widget
 msgid "Bed Dimensions [mm]"
@@ -658,7 +658,7 @@ msgstr "平台外觀 STL"
 
 #.  Tooltip for 'Bed STL Model'
 msgid "Chose a STL model to represent the printer's bed (make sure the origin coincides with where the printer would deposit plastic at 0,0)"
-msgstr "選擇一個STL物件來表示打印機的平台位置(確保原點與打印機在0,0上列印塑料的地方一致)"
+msgstr "選擇一個STL物件來表現打印機的平台位置(確保原點與打印機在0,0上列印的地方一致)"
 
 #.  Widget
 msgid "Bed Size [mm]  X @<->"
@@ -770,7 +770,7 @@ msgstr "選擇和恢復參考設置"
 
 #.  Menu Item
 msgid "Clearing '[X] Force' default settings above current level"
-msgstr "清除 '[X]強制' 預設設置高於當前級別"
+msgstr "清除 '[X]強制' 預設設置高於當前等級"
 
 #.  Menu Item
 msgid "Coarse"
@@ -914,15 +914,15 @@ msgstr "設定檔助手"
 
 #.  Menu Item
 msgid "Crown Path"
-msgstr "填補路徑"
+msgstr "填隙路徑"
 
 #.  Widget
 msgid "Crown [mm]"
-msgstr "填補[mm]"
+msgstr "填隙[mm]"
 
 #.  Tooltip for 'Crown [mm]'
 msgid "Crowning tries to fill in small gaps and thin walls.  Crowning paths must be longer than this to be kept.  Negative values disable crowning. 1mm is a good starting value."
-msgstr "填補可試著填滿小間隙和薄壁.填補路徑必須比一般的長.負值則禁用填補.建議起始值是1mm "
+msgstr "填隙可試著填補細小間隙和薄壁的縫隙.負值是禁用填隙.建議起始值是1mm "
 
 #.  Widget
 msgid "Custom Syntax  <TOKEN>=[G-code]"
@@ -930,7 +930,7 @@ msgstr "自定義語法<TOKEN>=[G-code]"
 
 #.  Tooltip for 'Custom Syntax  <TOKEN>=[G-code]'
 msgid "This allows you to use per-material tokens as desired in the G-code"
-msgstr "這允許您在G-CODE中根據需要各別使用每個材料的代碼"
+msgstr "這允許您在G-CODE中根據各別需要使用每個材料的代碼"
 
 #.  Menu Item
 msgid "Dark"
@@ -1435,7 +1435,7 @@ msgstr "限制路徑角度"
 
 #.  Menu Item
 msgid "Foreground"
-msgstr "前景"
+msgstr "按鈕底色"
 
 #.  Widget
 msgid "G-code"
@@ -1660,7 +1660,7 @@ msgstr "用於打印頂部以支撐物件的擠出機"
 
 #.  Menu Item
 msgid "Intermediate"
-msgstr "普通"
+msgstr "進階"
 
 #.  Menu Item
 msgid "Invalid Key!<LF><LF>%s"
@@ -1732,7 +1732,7 @@ msgstr "層厚控制(以[mm]或相對於擠出寬[%])表示"
 
 #.  Tooltip for 'Layer Control (in [mm] or [%])'
 msgid "Units are in [mm], unless you add a % which makes it a percentage of Extrusion Width.<LF>E.g. '0.5' means 0.5 [mm].  '50%' means 1/2 extrusion width."
-msgstr "一般單位是[mm],除非你使用擠出寬度的百分比.<LF> 例如'0.5'表示0.5 [mm],'50%'表示擠出寬度的2分之1."
+msgstr "一般單位是[mm],除非您使用擠出寬度的百分比.<LF> 例如'0.5'表示0.5 [mm],'50%'表示擠出寬度的2分之1."
 
 #.  Widget
 msgid "Layer Thickness"
@@ -1900,7 +1900,7 @@ msgstr "某些韌體類型使用M101 / 3或G10 / 1來觸發離線. 注意:這是
 
 #.  Menu Item
 msgid "Material"
-msgstr "材料"
+msgstr "材料類型"
 
 #.  Widget
 msgid "材料<LF>系列"
@@ -2140,7 +2140,7 @@ msgstr "註釋"
 
 #.  Tooltip for 'Notes'
 msgid "Store whatever notes you wish"
-msgstr "保存你所需的註釋"
+msgstr "保存您所需的註釋"
 
 #.  Widget
 msgid "NozDia1"
@@ -2360,7 +2360,7 @@ msgstr "顏色值窗口"
 
 #.  Menu Item
 msgid "Path Type"
-msgstr "路徑類型"
+msgstr "路徑種類"
 
 #.  Widget
 msgid "Path Type Selector"
@@ -2368,7 +2368,7 @@ msgstr "路徑類型選擇器"
 
 #.  Tooltip for 'Path Type Selector'
 msgid "Selects how path lines are colored"
-msgstr "選擇路徑如何著色"
+msgstr "選擇路徑著色方式"
 
 #.  Widget
 msgid "Path%"
@@ -2376,7 +2376,7 @@ msgstr "路徑%"
 
 #.  Tooltip for 'Path%'
 msgid "Show the layer's paths in process"
-msgstr "顯示正在進行的圖層路徑"
+msgstr "滑動以顯示目前切層的動作路線"
 
 #.  Widget
 msgid "Paths"
@@ -2700,7 +2700,7 @@ msgstr "重置"
 
 #.  Tooltip for 'Reset'
 msgid "Reset the veiw to be centered on the build bed"
-msgstr "重新放置在平台中心"
+msgstr "將視角重置在建構平台中心"
 
 #.  Menu Item
 msgid "Restore original orientation"
@@ -2896,11 +2896,11 @@ msgstr "設置"
 
 #.  Widget
 msgid "Settings Level"
-msgstr "經驗級別"
+msgstr "經驗等級"
 
 #.  Tooltip for 'Settings Level'
 msgid "Select your experience level...setings more advanced than this will be disabled"
-msgstr "選擇你的經驗級別...更高級的設置將被禁用"
+msgstr "選擇您的 3D打印經驗等級,更高級的設置則將禁用,直至您改為更高等級"
 
 #.  Widget
 msgid "Shake"
@@ -2908,7 +2908,7 @@ msgstr "移開"
 
 #.  Tooltip for 'Shake'
 msgid "At the end of the prime, move the nozzle quickly to one side and back.  This is intended to be used on printers that can not beep."
-msgstr "在最後將噴嘴快速移動到一側和背面,這可以考慮用於不能發出嗶聲警示的打印機"
+msgstr "在結束後將噴嘴快速移動到一側的背面,這可以考慮用於不能發出嗶聲警示的打印機"
 
 #.  Widget
 msgid "Sheathe"
@@ -3312,7 +3312,7 @@ msgstr ""
 
 #.  Menu Item
 msgid "This will overwrite any settings above this level.<LF>Are you sure?"
-msgstr "這將覆蓋上述任何設置.<LF>你確定嗎?"
+msgstr "這將覆蓋上述任何設置.<LF>您確定嗎?"
 
 #.  Widget
 msgid "To calculate the cost, you<LF>will need to print out one<LF>object and weigh it.<LF>(raft and all)"
@@ -3444,7 +3444,7 @@ msgstr "新線軸上的材料重量"
 
 #.  Menu Item
 msgid "What would you like the new %s Profile to be named?"
-msgstr "你想要為新的%s 設定檔命名?"
+msgstr "您想要為新的%s 設定檔命名?"
 
 #.  Widget
 msgid "When a parameter is selected, the exported G-code<LF>will be tuned as a function of Z.  The horrible yellow<LF>color indicates that the exported G-code is affected.<LF><LF>Note: The actual tuning value is available in the<LF>G-code using the <TUNINGVAL> token."
