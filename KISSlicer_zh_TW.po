@@ -1728,7 +1728,7 @@ msgstr "擠出機擠出第一層到平台上的溫度,最好比正常列印溫�
 
 #.  Widget
 msgid "Layer Control (in [mm] or [%])"
-msgstr "層控制(以[mm]或[%])表示"
+msgstr "層控制(以[mm]或相對於擠出寬[%])表示"
 
 #.  Tooltip for 'Layer Control (in [mm] or [%])'
 msgid "Units are in [mm], unless you add a % which makes it a percentage of Extrusion Width.<LF>E.g. '0.5' means 0.5 [mm].  '50%' means 1/2 extrusion width."
@@ -3660,7 +3660,7 @@ msgstr "選擇Z值是否符合G-CODE或物件"
 
 #.  Widget
 msgid "Z-Roof [mm]"
-msgstr "Z-頂版 [mm]"
+msgstr "Z-頂高 [mm]"
 
 #.  Tooltip for 'Z-Roof [mm]'
 msgid "No sheath will be generated above this height [mm].  Make < 0 to disable the limit.  Press Enter to preview the level."
