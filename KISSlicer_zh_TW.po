@@ -3664,7 +3664,7 @@ msgstr "Z-頂版 [mm]"
 
 #.  Tooltip for 'Z-Roof [mm]'
 msgid "No sheath will be generated above this height [mm].  Make < 0 to disable the limit.  Press Enter to preview the level."
-msgstr "高於該高度時不會產生護套[mm],當<0 則是禁用限制,按Enter鍵預覽級別"
+msgstr "高於該高度時不會產生護套[mm],當<0 則是禁用限制,按Enter鍵預覽層別"
 
 #.  Widget
 msgid "Z-Settle [mm]"
