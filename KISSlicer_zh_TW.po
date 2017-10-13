@@ -35,7 +35,7 @@ msgstr "<LF>Flow Rate [mm^3/s]<LF>(10 - 1)<LF><LF>使用溫度測試中建議的
 
 #.  Menu Item
 msgid "<LF>Temperature [C]<LF>(manufacturer's recommendation)<LF><LF>The printer profile must have the 'Warm Same Ext' and 'Cool Same Ext' G-code defined.<LF><LF>Try a style profile with 1.5 loops in vase mode, and a skin thickness ~= 2 layers. Use the same rounded model from the PreloadVE test.<LF><LF>Once the test is done and the part cooled, use pliers to check the inter-layer bonding strength at various Z heights.  Pick a Z value that shows a nice surface quality and good bonding."
-msgstr "<LF>Temperature[C]<LF>(製造商建議的)<LF><LF>打印機設定檔必須給予"Warm Same Ext"和"Cool Same Ext"的G-code定義.<LF><LF>以花瓶模式中1.5圈形式的輪廓,表面厚度~= 2層去測試.使用與PreloadVE(預載材料彈黏性)<LF>測試相同的物件.<LF><LF>一旦測試完成待物件冷卻後,使用鉗子檢查<LF>各種Z高度下各層的黏合強度,選擇看來<LF>表面品質和黏合性良好的Z值."
+msgstr "<LF>Temperature[C]<LF>(製造商建議的)<LF><LF>打印機設定檔必須給予'Warm Same Ext'和'Cool Same Ext'的G-code定義.<LF><LF>以花瓶模式中1.5圈形式的輪廓,表面厚度~= 2層去測試.使用與PreloadVE(預載材料彈黏性)<LF>測試相同的物件.<LF><LF>一旦測試完成待物件冷卻後,使用鉗子檢查<LF>各種Z高度下各層的黏合強度,選擇看來<LF>表面品質和黏合性良好的Z值."
 		
 
 #.  Menu Item
@@ -770,7 +770,7 @@ msgstr "選擇和恢復參考設置"
 
 #.  Menu Item
 msgid "Clearing '[X] Force' default settings above current level"
-msgstr "清除"[X]強制"預設設置高於當前級別"
+msgstr "清除 '[X]強制' 預設設置高於當前級別"
 
 #.  Menu Item
 msgid "Coarse"
@@ -842,7 +842,7 @@ msgstr "冷卻"
 
 #.  Tooltip for 'Cool'
 msgid "If slowing a layer to reach 'Min Layer [s]', make sure the fan is at least at this Duty Cycle %"
-msgstr "如果減緩層達到"單層時間 [s]",請確保風扇至少在此百分比%"
+msgstr "如果減緩層達到'單層時間 [s]',請確保風扇至少在此百分比%"
 
 #.  Widget
 msgid "Cool<LF>Same<LF>Ext"
@@ -974,7 +974,7 @@ msgstr "刪除目前設定檔"
 
 #.  Menu Item
 msgid "Delete %s Profile '%s'?"
-msgstr 刪除 %s 設定檔 '%s'?"
+msgstr "刪除 %s 設定檔 '%s'?"
 
 #.  Menu Item
 msgid "Dense"
@@ -1196,7 +1196,7 @@ msgstr "擠出機 &2"
 
 #.  Tooltip for 'Extruder &2'
 msgid "Set selected sub-meshes to Extruder 2"
-msgstr "將選定的子網格設置到擠出機 2""
+msgstr "將選定的子網格設置到擠出機 2"
 
 #.  Widget
 msgid "Extruder &3"
@@ -1204,7 +1204,7 @@ msgstr "擠出機 &3"
 
 #.  Tooltip for 'Extruder &3'
 msgid "Set selected sub-meshes to Extruder 3"
-msgstr "將選定的子網格設置到擠出機 3""
+msgstr "將選定的子網格設置到擠出機 3"
 
 #.  Widget
 msgid "Extruder &4"
@@ -1212,7 +1212,7 @@ msgstr "擠出機 &4"
 
 #.  Tooltip for 'Extruder &4'
 msgid "Set selected sub-meshes to Extruder 4"
-msgstr "將選定的子網格設置到擠出機 4""
+msgstr "將選定的子網格設置到擠出機 4"
 
 #.  Widget
 msgid "Extruder 1 Material"
@@ -1740,7 +1740,7 @@ msgstr "層厚"
 
 #.  Tooltip for 'Layer Thickness'
 msgid "The thickness of each slice ('ply') of plastic extruded (minimum). This should be <= Extrusion Width"
-msgstr "每個切片("ply")的擠出厚度(最小值)必須小於或等於擠出寬度"
+msgstr "每個切片('ply')的擠出厚度(最小值)必須小於或等於擠出寬度"
 
 #.  Widget
 msgid "Length to Extrude [mm]"
@@ -1960,7 +1960,7 @@ msgstr "最大"
 
 #.  Tooltip for 'Max'
 msgid "Maximum thickness of each slice ('ply') of plastic extruded when trying to match Stepover control.  Set to 0 for no Stepover control"
-msgstr "當配合跨步控制擠出時塑料的每個切片("ply")之最大厚度.對於無跨步控制需設置為0"
+msgstr "當配合跨步控制擠出時塑料的每個切片('ply')之最大厚度.對於無跨步控制需設置為0"
 
 #.  Widget
 msgid "Max Nodes / s"
@@ -2052,7 +2052,7 @@ msgstr "物件"
 
 #.  Menu Item
 msgid "Model Tab Order<LF>    (all objects at the same time, unsorted)"
-msgstr "物件序列標籤卡<LF>(同時打印所有物件,不排程)"
+msgstr "物件序列標籤卡<LF>(同時打印所有物件,不排隊)"
 
 #.  Widget
 msgid "Models"
@@ -3256,7 +3256,7 @@ msgstr "材料的黏彈性<LF>是黏度與<LF>彈性的比值,單位為<秒>,我
 
 #.  Menu Item
 msgid "The model(s) could not be sliced with current settings.<LF>Most likely the walls are thinner than the extrusion width."
-msgstr "物件不能用當前設置進行切片."LF"很可能物件壁厚比擠出寬度還要薄"
+msgstr "物件不能用當前設置進行切片.<LF>很可能物件壁厚比擠出寬度還要薄"
 
 #.  Menu Item
 msgid "The percentage must be in the range 1%% to 100%%."
@@ -3408,7 +3408,7 @@ msgstr "塑料在主要擠出溫度下的黏度ABS =~1000 [帕斯卡*秒]"
 
 #.  Menu Item
 msgid "WARNING: Slicing may use up to %1.1f MB<LF>('RAM Warning' is set at %1.1f MB, system has %1.1f RAM)%s"
-msgstr "警告：切片可能最多使用%1.1f MB <LF>("RAM警告"設置為%1.1f MB,系統具有%1.1f RAM)%s"
+msgstr "警告：切片可能最多使用%1.1f MB <LF>('RAM警告'設置為%1.1f MB,系統具有%1.1f RAM)%s"
 
 #.  Widget
 msgid "Warm"
@@ -3704,7 +3704,7 @@ msgstr ""
 
 #.  Tooltip for '[*] N Layers'
 msgid "The number of layers before inserting the 'N Layers' G-code (0 disables)"
-msgstr "在G-CODE之前插入"N層"的層數(0為禁用)"
+msgstr "在G-CODE之前插入'N層'的層數(0為禁用)"
 
 #.  Menu Item
 msgid "[Precision: %1.0f%%]"
