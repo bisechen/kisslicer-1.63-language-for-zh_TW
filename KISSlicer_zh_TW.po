@@ -3512,7 +3512,7 @@ msgstr "X偏移4"
 
 #.  Tooltip for 'X off 4'
 msgid "X Offset of ext 4 from ext 1"
-msgstr 擠出機 1 到擠出機 4 的 X 軸偏移量"
+msgstr "擠出機 1 到擠出機 4 的 X 軸偏移量"
 
 #.  Widget
 msgid "X&&Y"
