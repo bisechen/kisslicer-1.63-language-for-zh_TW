@@ -359,7 +359,7 @@ msgstr ""
 
 #.  Tooltip for '@+2menu'
 msgid "Draw all layers below the selected layer (CTRL+L)"
-msgstr "繪製所選圖層下方的所有圖層(CTRL+L)"
+msgstr "顯示滑桿所在層下的全部層(CTRL+L)"
 
 #.  Widget
 msgid "@1-> Fix Settings Window"
