@@ -13,7 +13,7 @@ msgstr "正體中文翻譯 - TAIWAN Kisslicer USER TEAM"
 
 #.  Menu Item
 msgid "<LF><LF>The Tuning Wizard will linearly interpolate the Parameter chosen by the user as a function of Z.<LF><LF>'Tune_Value at Z = 0' will be the value of the Parameter on the bottom layers.<LF><LF>'Tune_Value at Z = top' will be the value of the Parameter on the top layers of the tallest model printed.<LF><LF><LF>Select a Tuning Parameter to see recommendations specific to that test. A rough recommended range will also be shown as (lo - hi)."
-msgstr "<LF><LF>優化助手將會以用戶選擇的參數插入為 Z 的數值.<LF><LF>當 Tune_Value 值為 Z=0 時是底層參數值.<LF><LF>而 Tune_Value 為  Z=top 時 則是打印物件頂層的參數值.<LF><LF><LF>選擇或輸入調整參數以查看該測試的特定建議。<LF>粗略的建議範圍將顯示為(lo-hi)。"
+msgstr "<LF><LF>優化助手將會以用戶選擇的參數插入為 Z 的數值.<LF><LF>當 Tune_Value 值為 Z=0 時是底層參數值.<LF><LF>而 Tune_Value 為  Z=top 時 則是打印物件頂層的參數值.<LF><LF><LF>選擇或輸入調整參數以查看該測試的特定建議.<LF>粗略的建議範圍將顯示為(lo-hi)."
 
 #.  Menu Item
 msgid "<LF>(Note: increasing the oversample resolution will reduce memory usage)"
@@ -994,11 +994,11 @@ msgstr "回抽/回擦/跳過 路徑"
 
 #.  Widget
 msgid "Dia"
-msgstr "擴展"
+msgstr "延展"
 
 #.  Tooltip for 'Dia'
 msgid "Expands the bottom layer by this distance (using Dia / ExtrusionWidth extra loops).  This helps the part adhere to the bed.  If Brim is enabled the loops on the first layer will always print from outside to inside."
-msgstr "將底層擴展一定的距離(使用擴展 / 擠出額外的繞圈),這有助於零件黏貼到平台上.如果啟用了帽邊,則第一層的繞圈將從外部打印到內部."
+msgstr "將底層擴展一定的距離(使用延展 / 擠出額外的繞圈),這有助於零件黏貼到平台上.如果啟用了帽邊,則第一層的繞圈將從外部打印到內部."
 
 #.  Menu Item
 msgid "Diagonal Non-Overlap (Cartesian printers)"
@@ -1620,11 +1620,11 @@ msgstr "填充: 花瓶"
 
 #.  Widget
 msgid "Inflate Raft<LF>&& Prime Gap"
-msgstr "棧板/預擠<LF>擴展量"
+msgstr "棧板/預擠<LF>延展量"
 
 #.  Tooltip for 'Inflate Raft<LF>&& Prime Gap'
 msgid "Inflate the raft (or skirt) by this many [mm] in all directions to stick better to the bed"
-msgstr "擴展棧板(或側裙)到多少[mm],以讓物件可更好的黏貼在平台上"
+msgstr "延展棧板(或側裙)到多少[mm],以讓物件可更好的黏貼在平台上"
 
 #.  Widget
 msgid "Inflate Support"
@@ -1632,15 +1632,15 @@ msgstr "擴大支撐"
 
 #.  Tooltip for 'Inflate Support'
 msgid "Inflate the support by this many [mm] in all directions (it can help strengthen undercut support)"
-msgstr "擴展支撐到多少[mm],可強化支撐強度"
+msgstr "支撐向外延展多少[mm],可增進支撐的強度"
 
 #.  Widget
 msgid "Inset<LF>Surface [mm]"
-msgstr "表面內縮<LF>[mm]"
+msgstr "表面收縮<LF>[mm]"
 
 #.  Tooltip for 'Inset<LF>Surface [mm]'
 msgid "Adjust the surface inward (in X,Y plane).  Value should be > 0 and < Extrusion Width / 2"
-msgstr "向內調整表面(X,Y平面)。 設置值需大於 0和小於擠出寬度除於 2"
+msgstr "向內收縮表面(X,Y平面). 設置值需大於 0 和 小於擠出線寬的一半"
 
 #.  Widget
 msgid "Inside"
@@ -1648,7 +1648,7 @@ msgstr "內部"
 
 #.  Tooltip for 'Inside'
 msgid "While extruding everything else set the fan to this Duty Cycle %"
-msgstr "在擠出內部時將風扇風量設訂在這個百分比"
+msgstr "在擠出內部時將風扇風量設定在這個百分比"
 
 #.  Widget
 msgid "Interface Ext"
@@ -1656,7 +1656,7 @@ msgstr "墊片擠出機"
 
 #.  Tooltip for 'Interface Ext'
 msgid "Extruder for printing the top of the support just under the model"
-msgstr "用於打印頂部以支撐物件的擠出機"
+msgstr "用於打印支撐頂部托起物件的水溶性墊片材料擠出機"
 
 #.  Menu Item
 msgid "Intermediate"
@@ -1668,11 +1668,11 @@ msgstr "無效的金鑰!<LF><LF>%s"
 
 #.  Widget
 msgid "Jitterº"
-msgstr "跳轉º"
+msgstr "角度º"
 
 #.  Tooltip for 'Jitterº'
 msgid "Randomly spread the start-point of each loop over this angle"
-msgstr "在這個角度隨機分佈每條繞圈的起點"
+msgstr "隨機分佈每條繞圈的起點在這個角度範圍內"
 
 #.  Widget
 msgid "Join-Loop"
@@ -1680,15 +1680,15 @@ msgstr "連接繞圈"
 
 #.  Tooltip for 'Join-Loop'
 msgid "Join the Perimeter to the first loop inside it."
-msgstr "將外緣連接第一個內側繞圈"
+msgstr "將外緣路徑終點連接第一個內側繞圈路徑起點"
 
 #.  Widget
 msgid "Joint"
-msgstr "連接"
+msgstr "一致"
 
 #.  Tooltip for 'Joint'
 msgid "Force all models to share the same layer divisions.  In general you do NOT want this, unless printing multi-extruder prints on a single nozzle."
-msgstr "強制所有物件共用相同的分層.通常您不需這樣做,除非您的機器是單噴嘴多機擠出."
+msgstr "強制所有物件共用相同的切層設定.除非您使用的是多擠出機單噴嘴的機器.否則您不需啟用此選項"
 
 #.  Widget
 msgid "KISSlicer PRO Features"
@@ -1724,7 +1724,7 @@ msgstr "第1層"
 
 #.  Tooltip for 'Layer 1'
 msgid "Temperature of the extruder while extruding the first layer onto the bed.  Warm it up a bit for better stick."
-msgstr "擠出機擠出第一層到平台上的溫度,最好比正常列印溫度高一點,可以黏貼得更好."
+msgstr "擠出機擠出第一層到平台上的溫度,最好比正常列印溫度高5～10度,可以黏貼得更好."
 
 #.  Widget
 msgid "Layer Control (in [mm] or [%])"
@@ -1732,7 +1732,7 @@ msgstr "層厚控制(以[mm]或相對於擠出寬[%])表示"
 
 #.  Tooltip for 'Layer Control (in [mm] or [%])'
 msgid "Units are in [mm], unless you add a % which makes it a percentage of Extrusion Width.<LF>E.g. '0.5' means 0.5 [mm].  '50%' means 1/2 extrusion width."
-msgstr "一般單位是[mm],除非您使用擠出寬度的百分比.<LF> 例如'0.5'表示0.5 [mm],'50%'表示擠出寬度的2分之1."
+msgstr "一般單位是[mm],除非您使用擠出寬度的百分比.<LF> 例如'0.5'表示0.5 [mm],'50%'則是擠出線寬的一半."
 
 #.  Widget
 msgid "Layer Thickness"
@@ -1740,7 +1740,7 @@ msgstr "層厚"
 
 #.  Tooltip for 'Layer Thickness'
 msgid "The thickness of each slice ('ply') of plastic extruded (minimum). This should be <= Extrusion Width"
-msgstr "每個切片('ply')的擠出厚度(最小值)必須小於或等於擠出寬度"
+msgstr "每個切片的擠出厚度(最小值)必須小於或等於擠出寬度"
 
 #.  Widget
 msgid "Length to Extrude [mm]"
@@ -1960,7 +1960,7 @@ msgstr "最大"
 
 #.  Tooltip for 'Max'
 msgid "Maximum thickness of each slice ('ply') of plastic extruded when trying to match Stepover control.  Set to 0 for no Stepover control"
-msgstr "當配合跨步控制擠出時塑料的每個切片('ply')之最大厚度.對於無跨步控制需設置為0"
+msgstr "在搭配擁有步距控制的擠出機擠出塑料時每個切片之最大厚度. 0 為關閉步距控制"
 
 #.  Widget
 msgid "Max Nodes / s"
@@ -1980,7 +1980,7 @@ msgstr "如果需要,通過減慢噴頭速度和流速,限制擠出機不能將�
 
 #.  Widget
 msgid "Mesh Error Key"
-msgstr "關鍵網格值"
+msgstr "錯誤網格值"
 
 #.  Widget
 msgid "Min Jump[mm]"
@@ -2508,7 +2508,7 @@ msgstr "Pre-<LF>heat"
 
 #.  Tooltip for 'Pre-<LF>heat'
 msgid "Used to preheat an extruder before switching to it.  This is called twice, first with the extruder to be preheated, then again with the current extruder."
-msgstr "用於切換到擠壓機之前對其進行預熱,這是所謂的兩次預熱,先用擠出機進行預熱,然後再預熱當前的擠出機。"
+msgstr "用於切換到擠壓機之前對其進行預熱,這是所謂的兩次預熱,先用擠出機進行預熱,然後再預熱當前的擠出機."
 
 #.  Widget
 msgid "Precision<LF>(vs. Speed)"
