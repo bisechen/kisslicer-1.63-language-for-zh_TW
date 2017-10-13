@@ -3476,7 +3476,7 @@ msgstr "助手"
 
 #.  Tooltip for 'X'
 msgid "Reset the veiw to be Aligned with the X axis"
-msgstr "使用X軸重置視圖"
+msgstr "重置視圖對準到 X 軸"
 
 #.  Widget
 msgid "X "
@@ -3496,7 +3496,7 @@ msgstr "X偏移2"
 
 #.  Tooltip for 'X off 2'
 msgid "X Offset of ext 2 from ext 1"
-msgstr "X 軸從擠出機1到擠出機2的偏移量"
+msgstr "擠出機 1 到擠出機 2 的 X 軸偏移量"
 
 #.  Widget
 msgid "X off 3"
@@ -3504,7 +3504,7 @@ msgstr "X偏移3"
 
 #.  Tooltip for 'X off 3'
 msgid "X Offset of ext 3 from ext 1"
-msgstr "X 軸從擠出機1到擠出機3的偏移量"
+msgstr "擠出機 1 到擠出機 3 的 X 軸偏移量"
 
 #.  Widget
 msgid "X off 4"
@@ -3512,7 +3512,7 @@ msgstr "X偏移4"
 
 #.  Tooltip for 'X off 4'
 msgid "X Offset of ext 4 from ext 1"
-msgstr "X 軸從擠出機1到擠出機4的偏移量"
+msgstr 擠出機 1 到擠出機 4 的 X 軸偏移量"
 
 #.  Widget
 msgid "X&&Y"
@@ -3520,7 +3520,7 @@ msgstr ""
 
 #.  Tooltip for 'X&&Y'
 msgid "How many steps per mm in X & Y.  This number is complex for Delta printers, but is used to ensure that paths don't have segments smaller than a threshold (2 steps)."
-msgstr "X&Y中每毫米有多少步.這個數字對於Delta打印機來說很複雜,但用於確保路徑不具有小於閾值的段(2個步驟)"
+msgstr "X&Y中每毫米有多少步.這個數字對於Delta打印機來說很複雜,但用於確保路徑不會有小於閾值的片段(2步)"
 
 #.  Widget
 msgid "X,Y Travel Speed"
@@ -3532,11 +3532,11 @@ msgstr "XY加速度[mm / s^2]"
 
 #.  Tooltip for 'XY Accel [mm/s^2]'
 msgid "Acceleration of the print-head in X & Y, used for timing estimates"
-msgstr "X&Y 方向打印頭的加速度,用於時間的估計"
+msgstr "X&Y 方向打印頭的加速度,用於估計打印時間"
 
 #.  Widget
 msgid "XY Steps per mm"
-msgstr "XY 步距 mm"
+msgstr "每毫米XY步數"
 
 #.  Widget
 msgid "Y"
@@ -3544,7 +3544,7 @@ msgstr ""
 
 #.  Tooltip for 'Y'
 msgid "Reset the veiw to be Aligned with the Y axis"
-msgstr "使用Y軸重置視圖對齊"
+msgstr "重置視圖對準到 Y 軸"
 
 #.  Widget
 msgid "Y "
@@ -3564,7 +3564,7 @@ msgstr ""
 
 #.  Tooltip for 'Y @<->'
 msgid "Available print depth of the bed."
-msgstr "打印平台的深度"
+msgstr "打印平台可印的深度"
 
 #.  Widget
 msgid "Y off 2"
@@ -3572,7 +3572,7 @@ msgstr "Y偏移2"
 
 #.  Tooltip for 'Y off 2'
 msgid "Y Offset of ext 2 from ext 1"
-msgstr "Y軸從擠出機1的擠出機2的偏移量"
+msgstr "擠出機 1 到擠出機 2 的 Y 軸偏移量"
 
 #.  Widget
 msgid "Y off 3"
@@ -3580,7 +3580,7 @@ msgstr "Y偏移3"
 
 #.  Tooltip for 'Y off 3'
 msgid "Y Offset of ext 3 from ext 1"
-msgstr "Y軸從擠出機1的擠出機3的偏移量"
+msgstr "擠出機 1 到擠出機 3 的 Y 軸偏移量"
 
 #.  Widget
 msgid "Y off 4"
@@ -3588,7 +3588,7 @@ msgstr "Y偏移4"
 
 #.  Tooltip for 'Y off 4'
 msgid "Y Offset of ext 4 from ext 1"
-msgstr "Y軸從擠出機1的擠出機4的偏移量"
+msgstr "擠出機 1 到擠出機 4 的 Y 軸偏移量"
 
 #.  Menu Item
 msgid "Yes"
@@ -3600,7 +3600,7 @@ msgstr "是的,覆蓋"
 
 #.  Menu Item
 msgid "You must have at least one printer, material, and style defined."
-msgstr "您必須至少有一個打印機,材料和樣式定義"
+msgstr "您必須至少定義一個打印機,一個材料和一個樣式定義"
 
 #.  Widget
 msgid "Z"
@@ -3608,7 +3608,7 @@ msgstr ""
 
 #.  Tooltip for 'Z'
 msgid "Layers are rounded to integer multiples of Z steps.  For Delta printers just leave at 0."
-msgstr "每層捨入到Z步的整數倍,對於Delta打印機,只需給予 0"
+msgstr "每層四捨五入到Z步的整數倍,對於Delta打印機,只需給予 0"
 
 #.  Widget
 msgid "Z "
@@ -3616,7 +3616,7 @@ msgstr ""
 
 #.  Tooltip for 'Z '
 msgid "Height of the build volume in mm"
-msgstr "建立體積的高度(mm)"
+msgstr "可打印範圍的高度(mm)"
 
 #.  Widget
 msgid "Z @<->"
@@ -3624,7 +3624,7 @@ msgstr ""
 
 #.  Tooltip for 'Z @<->'
 msgid "Maximum height of a print"
-msgstr "打印的最大高度"
+msgstr "可打印的最大高度"
 
 #.  Widget
 msgid "Z Band"
@@ -3632,7 +3632,7 @@ msgstr "墊片<LF>Z厚度"
 
 #.  Tooltip for 'Z Band'
 msgid "The Interface support transitions on multiples of this (useful for non-flat supported overhangs)."
-msgstr "在墊片支撐的倍數上進行轉換(對於非平面支撐的突出端有幫助)"
+msgstr "墊片支撐以此數值的倍數上進行轉換(對於非平面突出端的支撐有幫助)"
 
 #.  Widget
 msgid "Z Offset [mm]"
@@ -3664,7 +3664,7 @@ msgstr "Z-頂版 [mm]"
 
 #.  Tooltip for 'Z-Roof [mm]'
 msgid "No sheath will be generated above this height [mm].  Make < 0 to disable the limit.  Press Enter to preview the level."
-msgstr "高於該高度時不會產生護套[mm],當<0 則是禁用限制,按Enter鍵預覽層別"
+msgstr "高於該高度時不會產生護套[mm],當<0 則是禁用限制,按Enter鍵預覽高度"
 
 #.  Widget
 msgid "Z-Settle [mm]"
