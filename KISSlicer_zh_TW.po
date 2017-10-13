@@ -2252,7 +2252,7 @@ msgstr "物件擺放品質"
 
 #.  Tooltip for 'Object Packing<LF>Quality'
 msgid "This controls the internal resolution used by the packing engine.  Leaving it set to 'Fast' is recommended unless the bed is nearly full.  This is reset to 'Fast' every time KISSlicer is started."
-msgstr "物件擺放於平台上間隔的品質.<LF>「Fast」擺放會比較雜亂,<LF>「balanced」為平均擺放.<LF>「Precise」則密集擺放.<LF>每次啟動KISSlicer時,這個功能將重設為「Fast」"
+msgstr "物件擺放於平台上間隔的品質.<LF>「Fast」擺放會比較快但也雜亂,<LF>「balanced」較慢但平均擺放.<LF>「Precise」則更慢但更密集的擺放.<LF>每次啟動KISSlicer時,這個功能將重設為「Fast」"
 
 #.  Menu Item
 msgid "Octagonal"
