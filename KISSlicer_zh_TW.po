@@ -3668,7 +3668,7 @@ msgstr "高於該高度時不會產生護套[mm],當<0 則是禁用限制,按Ent
 
 #.  Widget
 msgid "Z-Settle [mm]"
-msgstr "Z軸定位 [mm]"
+msgstr "Z軸下潛 [mm]"
 
 #.  Tooltip for 'Z-Settle [mm]'
 msgid "overshoot then return on Z moves (so last move is against gravity...removes slop), good for printers where the bed moves down (instead of head moving up)"
