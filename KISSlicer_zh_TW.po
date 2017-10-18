@@ -3672,7 +3672,7 @@ msgstr "Z軸定位 [mm]"
 
 #.  Tooltip for 'Z-Settle [mm]'
 msgid "overshoot then return on Z moves (so last move is against gravity...removes slop), good for printers where the bed moves down (instead of head moving up)"
-msgstr "用於類似Maker bot 結構列印平台下潛的改良參數,三角洲型打印機設定為0"
+msgstr "在層次轉換中移動Z軸時抬起量,可讓打印機穩定完成起點定位工作<LF>,專用於類似Maker bot 結構列印平台的改良參數,三角洲型打印機需設定為 0 禁用"
 
 #.  Widget
 msgid "Z-Speed"
