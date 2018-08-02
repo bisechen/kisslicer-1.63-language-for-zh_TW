@@ -2987,7 +2987,7 @@ msgstr "底座柵格選項[mm]"
 
 #. Widget
 msgid "Raft Int<LF>Layers"
-msgstr "底座介<LF>面層數"
+msgstr "底座墊<LF>片層數"
 
 #. Tooltip for 'Raft Int<LF>Layers'
 msgid "The number of interface layers to place on top of the raft (only if raft and support are enabled)"
