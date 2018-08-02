@@ -2063,7 +2063,7 @@ msgstr "內側打印圈/實體填充重疊量"
 
 #. Tooltip for 'Loop / Solid Infill Overlap'
 msgid "Controls how much the solid and sparse infill overlap the innermost loop (0 for just touching, 1.0 for maximum overlap...too much will look bad on solid prints, or near flat  surfaces)"
-msgstr "控制實體和稀疏填充於內層的打印圈有多少重疊(0僅為接觸,1.0為最大重疊,在平坦的表面或實心的打印狀況下，設定太多會不好看)"
+msgstr "控制實體和稀疏填充於內層的打印圈有多少重疊(0僅為接觸,1.0為最大重疊,<LF>在平坦的表面或實心的打印狀況下，設定太多會不好看)"
 
 #. Widget
 msgid "Loop Order"
@@ -2071,7 +2071,7 @@ msgstr "打印順序"
 
 #. Tooltip for 'Loop Order'
 msgid "Perimeter 1st gives the best dimensions, but worst outward slope. Loop1 then Perim is a good compromise between dimensional accuracy and overhangs.  Perimeter Last will do the best with outward slopes, but has the least dimensional accuracy."
-msgstr "先印外殼第一圈可以做出最好的尺寸,但是模型外側傾斜部分表現卻最差.先做內圈1然後做外殼則是尺寸精度和傾斜部分之間折衷的選擇.外殼最後打印的則是最好的外側傾斜部分,但尺寸精度最小"
+msgstr "先印外殼第一圈可以做出最好的尺寸,但是模型外側傾斜部分表現卻最差.<LF>先做內圈1然後做外殼則是尺寸精度和傾斜部分之間折衷的選擇.<LF>外殼最後打印的則是最好的外側傾斜部分,但尺寸精度最小"
 
 #. Menu Item
 msgid "Loop Path"
@@ -2223,7 +2223,7 @@ msgstr "最大 [mm^3/s]"
 
 #. Tooltip for 'Max [mm^3/s]'
 msgid "Limit the Extruder to not deliver material above this volumetric flow rate (path thickness * width * head_speed) by slowing down both the head speed and the flow rate if necessary."
-msgstr "必要時通過減慢噴頭速度和流速,限制擠出機不能將材料輸出高於此體積流量(路徑厚度*寬度*噴頭速度)"
+msgstr "必要時通過減慢噴頭速度和流速,限制擠出機不能將材料<LF>輸出高於此體積流量(路徑厚度*寬度*噴頭速度)"
 
 #. Widget
 msgid "Mesh Error Key"
@@ -2435,7 +2435,7 @@ msgstr "喉管長1"
 
 #. Tooltip for 'NozLen1'
 msgid "Nozzle throat length in [mm].  (Most older style nozzles will be ~= nozzle diameter * 2, newer ones may be down around 1.25 x)"
-msgstr "噴嘴內喉管的長度[mm](大多數老式噴嘴可能為~噴嘴直徑的 2倍,較新的噴嘴大約直徑1.25倍)"
+msgstr "噴嘴內喉管的長度[mm](大多數老式噴嘴可能為~<LF>噴嘴直徑的 2倍,較新的噴嘴大約直徑1.25倍)"
 
 #. Widget
 msgid "NozLen2"
@@ -2471,7 +2471,7 @@ msgstr "噴嘴孔徑[mm]"
 
 #. Tooltip for 'Nozzle Diameter [mm]'
 msgid "The nozzle used determines the best extrusion width for the interface material, depending on if the support material is the same as the object material."
-msgstr "使用的噴嘴決定了墊片材料的最佳擠出寬度,這取決於支撐材料是否與模型材料相同."
+msgstr "使用的噴嘴決定了墊片材料的最佳擠出寬度,<LF>這取決於支撐材料是否與模型材料相同."
 
 #. Widget
 msgid "Nozzle Diameter [mm]<LF>(used for extrusion width)"
@@ -2539,7 +2539,7 @@ msgstr "僅包含<LF>外殼"
 
 #. Tooltip for 'Only Enclosing<LF>Perimeters'
 msgid "If checked, only perimeters which are not enclosed in another perimeter are textured.  This is trying to be a \"outside only\" setting, but has limitations."
-msgstr "若使用此功能，則只有未含有另一個面的外殼會被紋理化。 這是嘗試做為“僅限於外殼”的設置，但也會有限制。"
+msgstr "若使用此功能，則只有未含有另一個面的外殼會被紋理化。<LF> 這是嘗試做為“僅限於外殼”的設置，但也會有限制。"
 
 #. Widget
 msgid "Ooze Density [g/cm^3]"
@@ -3663,7 +3663,7 @@ msgstr "以下INI檔案不存在(使用預設值):"
 
 #. Widget
 msgid "The material's viscoelasticity<LF>is the ratio of the viscosity to<LF>elasticity.  The units work out<LF>to be seconds.  We use [µs].<LF><LF>NOTE: This is an initial value.<LF>Refine it in the Tuning Wizard."
-msgstr "材料的黏彈性<LF>是黏度與<LF>彈性的比值,單位為<秒>,我們使用[μs].<LF><LF>注意:這裡只是一個初始值.<LF>最後還要在最佳化助手中進行最佳化"
+msgstr "材料的黏彈性<LF>是黏度與彈性的比值,單位為<秒>,我們使用[μs].<LF><LF>注意:這裡只是一個初始值.<LF>最後還要在最佳化助手中進行最佳化"
 
 #. Menu Item
 msgid "The model(s) could not be sliced with current settings.<LF>Most likely the walls are thinner than the extrusion width."
@@ -3715,7 +3715,7 @@ msgstr "沒有[選擇新噴頭和保溫]的G-code defined.使用以下內容:<LF
 
 #. Menu Item
 msgid "There is no [Warm Same Ext] G-code defined.  Using the following from [Select New Ext & Warm]:<LF>%s"
-msgstr "沒有[保溫同一噴頭] G-code定義.使用[選擇新噴頭和保溫]中的以下內容:<LF>%s"
+msgstr "沒有[保溫同一噴頭] G-code定義.使用<LF>[選擇新噴頭和保溫]中的以下內容:<LF>%s"
 
 #. Widget
 msgid "Theta"
@@ -3895,7 +3895,7 @@ msgstr "回擦長度[mm]"
 
 #. Tooltip for 'Wipe [mm]'
 msgid "Before moving to a new region, back-tracks over the most recent path or continues over the loop by this distance."
-msgstr "在移動到新的區域之前,在最近的路徑上回擦路徑,或者繼續內圈一段距離"
+msgstr "在移動到新的區域之前,<LF>在最近的路徑上回擦路徑,或者繼續內圈移動一段距離"
 
 #. Menu Item
 msgid "Wizards"
