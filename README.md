@@ -1,4 +1,4 @@
-# kisslicer-language-for-zh_TW
+# kisslicer 1.63-language-for-zh_TW
 這是給 Kisslicer 1.63 切片軟體正體中文(zh_TW)語言檔翻譯所建立的專案。
 
 請翻譯時注意軟體本身於畫面上有字數的限制，
