@@ -3179,7 +3179,7 @@ msgstr "接縫相對於未旋轉方向的標準角度"
 
 #. Widget
 msgid "Seam Depth"
-msgstr "接縫深度"
+msgstr "接縫深度[mm]"
 
 #. Tooltip for 'Seam Depth'
 msgid "Depth scale of the seam crossover"
@@ -3187,7 +3187,7 @@ msgstr "接縫交叉的深度尺寸"
 
 #. Widget
 msgid "Seam Gap"
-msgstr "接縫間距"
+msgstr "接縫間距[mm]"
 
 #. Tooltip for 'Seam Gap'
 msgid "Gap on loops: 0 is the theoretical ideal (with preload tuned)."
@@ -3447,7 +3447,7 @@ msgstr "疊層"
 
 #. Widget
 msgid "Stacked Layers<LF>(Sparse Infill, Support)"
-msgstr "堆疊層<LF>(稀疏填充,支撐)"
+msgstr "堆疊層數<LF>(稀疏填充,支撐)"
 
 #. Tooltip for 'Stacked<LF>Layers'
 msgid "Sparse Infill and Support are extruded every N layers (making them Stacked Sparse Infill and Stacked Support...PRO only)"
